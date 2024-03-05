@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+}
+.navbar{
+   font-weight: 600;
+   background-color: rgba(0, 0, 0, 0.6);
+}
+.nav-link{
+    transition: all 1s;
+}
+.nav-link:hover{
+    color: #0d6efd !important;
+
+}
+/*------------------------home----------------*/
+.home{
+    background-image: url(../images/intro-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home-layer{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.animation-header:after{
+    content: "|";
+    animation-name: subtitle;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.caption h1{
+    font-size: 60px;
+}
+@keyframes subtitle {
+    0%{content: '|';}
+    2%{content: 'L|';}
+    4%{content: 'La|';}
+    6%{content: 'Lar|';}
+    8%{content: 'Larr|';}
+    10%{content: 'Larry|';}
+    12%{content: 'Larry |';}
+    14%{content: 'Larry D|';}
+    16%{content: 'Larry Da|';}
+    18%{content: 'Larry Dan|';}
+    20%{content: 'Larry Dani|';}
+    22%{content: 'Larry Danie|';}
+    24%{content: 'Larry Daniel|';}
+    26%{content: 'Larry Daniels|';}
+    28%{content: 'Larry Daniel|';}
+    30%{content: 'Larry Danie|';}
+    32%{content: 'Larry Dani|';}
+    34%{content: 'Larry Dan|';}
+    36%{content: 'Larry Da|';}
+    38%{content: 'Larry D|';}
+    40%{content: 'Larry |';}
+    42%{content: 'Larry|';}
+    44%{content: 'Larr|';}
+    46%{content: 'Lar|';}
+    48%{content: 'La|';}
+    50%{content: 'L|';}
+    52%{content: '|';}
+
+
+    53%{content: 'D|';}
+    54%{content: 'De|';}
+    55%{content: 'Dev|';}
+    56%{content: 'Deve|';}
+    57%{content: 'Devel|';}
+    58%{content: 'Develo|';}
+    59%{content: 'Develop|';}
+    60%{content: 'Develope|';}
+    61%{content: 'Developer|';}
+    62%{content: 'Develope|';}
+    63%{content: 'Develop|';}
+    64%{content: 'Develo|';}
+    65%{content: 'Devel|';}
+    66%{content: 'Deve|';}
+    67%{content: 'Dev|';}
+    68%{content: 'De|';}
+    69%{content: 'D|';}
+    70%{content: '|';}
+
+
+
+    71%{content: 'D|';}
+    72%{content: 'De|';}
+    73%{content: 'Des|';}
+    74%{content: 'Desi|';}
+    75%{content: 'Desig|';}
+    77%{content: 'Design|';}
+    68%{content: 'Designe|';}
+    80%{content: 'Designer|';}
+    83%{content: 'Designe|';}
+    88%{content: 'Design|';}
+    90%{content: 'Desig|';}
+    91%{content: 'Desi|';}
+    92%{content: 'Des|';}
+    94%{content: 'De|';}
+    95%{content: 'D|';}
+    100%{content: '|';}
+
+}
+/*------------------------about--------------------------------------------------*/
+.about-content{
+    box-shadow:0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+    background-color: white;
+}
+.contacts p{
+    font-weight: 500;
+}
+.my-info p{
+  font-weight: 500;
+}
+.line{
+    width: 15%;
+    height: 3px;
+    background-color: #0d6efd;
+    margin-bottom: 40px;
+}
+.caption-about{
+font-size: 18px;
+}
+@media screen and (max-width: 992px){
+    .caption-about{
+        margin-top: 50px;
+    }
+    }
+@media screen and (max-width:992px)
+{
+    .service1{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:992px)
+{
+    .num{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:992px)
+{
+    .card-card{
+        margin-top: 20px;
+    }
+}
+
+/*------------------------service--------------------------------------------------*/
+.service-title h2{
+    font-size: 60px;
+    font-weight:bolder;
+
+}
+.service-title p{
+   
+    font-weight:600;
+
+
+}
+.serv-line{
+    height: 3px;
+    background-color: #0d6efd;
+    width: 40px;
+}
+.icon-div{
+   
+    width: 120px;
+    height: 120px;
+    border: 10px #0d6efd solid;
+    border-radius: 50%;
+    transition: all 1s;
+
+}
+.service1{
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+}
+.icon-div:hover{
+    background-color: #0d6efd;
+    color: white;
+    border: 10px #f5f5f5 solid;
+
+}
+/*------------------------num--------------------------------------------------*/
+#num-sec{
+    background-image: url(../images/work-5.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+
+}
+.layer-num{
+    background-color:rgba(13,110,253,0.7);
+ 
+}
+.icon-num {
+    width: 80px;
+    height: 80px;
+    border: 10px #f5f5f5 solid;
+    border-radius: 50%;
+ 
+
+}
+.num-content p{
+    font-weight: bold;
+    color: white;
+}
+/*------------------------cards--------------------------------------------------*/
+.card-icon{
+    width: 40px;
+    height: 40px;
+    border: 3px #0d6efd solid;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #0d6efd;
+
+}
+@media screen and (max-width:992px)
+{
+    .card-icon{
+        width: 30px;
+        height: 30px;
+        font-size: 20px;}
+    .card-group{
+        margin-top: 20px;
+    }    
+}
+
+.card-title p{
+    font-size: 13px;
+    font-weight: 600;
+}
+.card-title span{
+    color: #0d6efd;
+}
+.card-img{
+    overflow: hidden;
+  
+
+}
+.card-img img{
+    transition: all 1s;
+}
+.card-img:hover img{
+    transform: scale(1.3);
+}
+/*------------------------slider--------------------------------------------------*/
+#carsoul-sec{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.layer-carsoul{
+  
+    background-color:rgba(13,110,253,0.7);
+}
+/*------------------------blog--------------------------------------------------*/
+
+.blog-title h2{
+    font-size: 60px;
+  font-weight: bolder;
+}
+.blog-title p{
+
+  font-weight: 600;
+}
+
+
+.footer-img {
+    height: 40px;
+    width: 40px;
+   
+}
+.work-pos{
+    top:-15;
+    left: 41%;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 5px;
+    color: white;
+    background-color: #0d6efd;
+    border-radius: 3px;
+}
+/*------------------------contacts--------------------------------------------------*/
+#contacts-sec{
+   
+        background-image: url(../images/overlay-bg.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    
+
+}
+.layer-contacts{
+     
+    background-color:rgba(13,110,253,0.7);
+}
+.line-contact {
+    width: 20%;
+    height: 3px;
+    background-color: #0d6efd;
+    margin-bottom: 40px
+}
+.btn1{
+    padding: 13px 20px;
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    font-weight: 600;
+}
+.contact-icon{
+    color: #0d6efd;
+}
+.icons{
+    display: flex;
+   width: 35%;
+ 
+   justify-content: space-between;
+   font-size: 21px;
+}
+.icon-item{
+    padding: 10px;
+    
+    border: #0d6efd 3px solid;
+    border-radius: 50%;
+    transition: all 1s;
+}
+.icon-item:hover{
+    color: white;
+    background-color: #0d6efd;
+    border: #f5f5f5 3px solid;
+}
+#footer-footer{
+    background-color: #0062d3;
+}
+@media screen and (max-width:1000px)
+{
+    .contacts-info p{
+        font-size: 16px !important;
+    }
+   
+    .contacts-info span{
+        font-size: 16px !important;
+    }
+    .icons{
+        width: 45%;
+
+    }
+    .icon-item{
+        padding: 8px;
+
+    }
+    
+}
+
+
